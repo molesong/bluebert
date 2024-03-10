@@ -22,7 +22,7 @@ from bert import optimization
 from bert import tokenization
 from bluebert import tf_metrics
 
-flags = tf.flags
+flags =tf.compat.v1.flags
 
 FLAGS = flags.FLAGS
 
